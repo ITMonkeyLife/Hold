@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7BB23EE262421F000763F3B /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB23ED262421F000763F3B /* MyClass.m */; };
+		C7BB23F42624223700763F3B /* MyClass+Category1.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB23F32624223600763F3B /* MyClass+Category1.m */; };
+		C7BB23F72624223F00763F3B /* MyClass+Category2.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BB23F62624223F00763F3B /* MyClass+Category2.m */; };
 		C7FD7368262192D1002DBA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FD7367262192D1002DBA40 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +27,12 @@
 
 /* Begin PBXFileReference section */
 		C7BB23EB2621A1BF00763F3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7BB23EC262421F000763F3B /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		C7BB23ED262421F000763F3B /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		C7BB23F22624223600763F3B /* MyClass+Category1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyClass+Category1.h"; sourceTree = "<group>"; };
+		C7BB23F32624223600763F3B /* MyClass+Category1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyClass+Category1.m"; sourceTree = "<group>"; };
+		C7BB23F52624223F00763F3B /* MyClass+Category2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyClass+Category2.h"; sourceTree = "<group>"; };
+		C7BB23F62624223F00763F3B /* MyClass+Category2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MyClass+Category2.m"; sourceTree = "<group>"; };
 		C7FD7364262192D1002DBA40 /* FxxkingOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FxxkingOC; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FD7367262192D1002DBA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +69,12 @@
 			children = (
 				C7FD7367262192D1002DBA40 /* main.m */,
 				C7BB23EB2621A1BF00763F3B /* main.cpp */,
+				C7BB23EC262421F000763F3B /* MyClass.h */,
+				C7BB23ED262421F000763F3B /* MyClass.m */,
+				C7BB23F22624223600763F3B /* MyClass+Category1.h */,
+				C7BB23F32624223600763F3B /* MyClass+Category1.m */,
+				C7BB23F52624223F00763F3B /* MyClass+Category2.h */,
+				C7BB23F62624223F00763F3B /* MyClass+Category2.m */,
 			);
 			path = FxxkingOC;
 			sourceTree = "<group>";
@@ -121,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BB23EE262421F000763F3B /* MyClass.m in Sources */,
+				C7BB23F42624223700763F3B /* MyClass+Category1.m in Sources */,
+				C7BB23F72624223F00763F3B /* MyClass+Category2.m in Sources */,
 				C7FD7368262192D1002DBA40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

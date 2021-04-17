@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+//#import "MyClass.h"
+//#import "MyClass+Category1.h"
+#import "MyClass+Category2.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSObject *obj = [[NSObject alloc] init];
+        
+        MyClass *obj = [[MyClass alloc] init];
+        [obj printTarget];
+//        NSLog(@"%@", obj);
     }
     return 0;
 }

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FxxkingOC.xcscheme_^#shared#^_</key>
+		<key>FxxkingiOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C7FD7363262192D1002DBA40</key>
+		<key>C7BB243A26255BCB00763F3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7BB245526255BCE00763F3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C7BB246026255BCF00763F3B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
